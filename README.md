@@ -11,4 +11,4 @@ To build the (unmaintained) UIKit version run `./gradlew iosCompose:iosDeployIPh
 Build the app as usual, just like any other app.
 
 # Credits
-Based on this [Compose-ios guide](https://medium.com/better-programming/jetpack-compose-for-ios-getting-started-step-by-step-e7be6f52edd4)
+Started from this [Compose-ios boilerplate template](https://medium.com/better-programming/jetpack-compose-for-ios-getting-started-step-by-step-e7be6f52edd4)
