@@ -21,6 +21,7 @@ private val tags = linkedMapOf(
     "<em>" to "</em>",
     "<small>" to "</small>",
 )
+val SmallTextSize = 14F
 
 /**
  * The main entry point. Call this on a String and use the result in a Text.
@@ -102,7 +103,7 @@ private fun tagToStyle(tag: String): SpanStyle {
             SpanStyle(textDecoration = TextDecoration.Underline)
         }
         "<small>" -> {
-            SpanStyle(fontSize = TextUnit(12F, TextUnitType.Sp))
+            SpanStyle(fontSize = TextUnit(SmallTextSize, TextUnitType.Sp))
         }
         //This should only throw if you add a tag to the [tags] Map and forget to add it
         //to this function.
