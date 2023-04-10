@@ -59,7 +59,7 @@ class SkikoAppDelegate : UIResponder, UIApplicationDelegateProtocol {
                             modifier = Modifier.fillMaxSize(),
                             contentAlignment = Alignment.Center,
                         ) {
-                            Text("From Compose! Pure Kotlin iOS app")
+                            Text("From Compose! SkikoAppDelegate")
                         }
                     },
                 )
