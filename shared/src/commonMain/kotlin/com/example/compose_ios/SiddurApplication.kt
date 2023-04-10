@@ -10,6 +10,7 @@ import androidx.compose.material.TopAppBar
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import com.example.compose_ios.util.parseMarkdown
 
 @Composable
 internal fun SiddurApplication(displayTopAppBar: Boolean) {
@@ -23,7 +24,7 @@ internal fun SiddurApplication(displayTopAppBar: Boolean) {
                 ) {
                     Column {
                         Text("From Compose! SiddurApplication()")
-                        Text("What if I want to display another one?")
+                        Text("What if <b>I <em>want <small>to display another one?</small></em></b>".parseMarkdown())
                     }
                 }
             },
