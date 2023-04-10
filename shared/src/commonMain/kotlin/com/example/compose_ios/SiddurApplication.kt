@@ -34,14 +34,14 @@ internal fun SiddurApplication(displayTopAppBar: Boolean) {
                         modifier = Modifier
                             .verticalScroll(rememberScrollState())
                             .padding(16.dp)
-                            .background(Color(0xFF_FB_F0_D9)),
+                            .background(Color(0xFF_FBF0D9)),
                         horizontalAlignment = Alignment.CenterHorizontally,
                         verticalArrangement = Arrangement.Center,
                     ) {
                         Text("From Compose! SiddurApplication()")
                         Text(
                             AshkenazSiddur.SHACHRIS.parseMarkdown(),
-                            color = Color(0xFF_5F_4B_32),
+                            color = Color(0xFF_5F4B32),
                             fontSize = TextUnit(18F, TextUnitType.Sp)
                         )
                     }
